@@ -1,0 +1,43 @@
+
+
+
+
+body {
+   /* tidak disediakan gambar dari tugas */
+   background-image: url('slider.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+div {
+   width: 66%;
+   height: 318px;
+   margin: 5px;
+   background-image: url('avocado.jpg');
+   /* background-repeat: repeat-y; */
+   
+   overflow: scroll;
+   
+   border: 1px solid black;
+}
+
+.satu {
+   color: blue;
+   text-align: right;
+}
+
+
+div.satu p.dua{
+   color: green;
+   /* text-indent: -10px; supaya mepet ke border */
+   padding: 0;
+   text-align: left;
+   
+}
+
+div.satu p.tiga {
+   color: red;
+   text-align: center;
+   
+}
